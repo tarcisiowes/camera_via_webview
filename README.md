@@ -1,62 +1,79 @@
-# Hello World!
-## const welcome = {
-- : Seja bem-vindo(a) ao meu GitHub
-- : Fique a vontade para entrar em contato, os links estão no rodapé 📌 
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-}
+# Getting Started
 
-## ⚙ const algumasExperiencias = {
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-- : Atualmente trabalho na empresa GAFIT soluções como desenvolvedor fullstack web/mobile (React Native e Laravel como principais tecs),
-- : Trabalhei na empresa Arben do Brasil como supervisor operacional de manutenção e instalação de ar condicionado,
-- : Antes da pandemia dava aulas de Forró também ( agora to so na vontade 😅),
-- : Tenho bastante experiência na area de TI, trabalhei no RJ no projeto 3G da Claro/Embratel (Softmig Software e Telecomunicações)  e também dando manutenção em PCs domesticos,
+## Step 1: Start the Metro Server
 
-}
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-## ❗ const algumasCuriosidades = {
+To start Metro, run the following command from the _root_ of your React Native project:
 
-- : Ja fui desenhista, tive banda de rock 🤘 , toquei violoncello na igreja (nada a ver ne rs),
-- : Gosto de praticar atividades fisicas, meu esporte predileto é Baseball ( sim, eu ja joguei e nao, eu nao gosto de futebol),
-- : Prefiro salgados do que doces, qualquer massa,
-- : Não gosto tanto de filmes mas curto series e animes,
-- : Adoro jogos de tabuleiro e jogos Coop online,
+```bash
+# using npm
+npm start
 
-}
+# OR using Yarn
+yarn start
+```
 
-## 🧱 const incieiProgramacao = {
+## Step 2: Start your Application
 
-- : No inicio de 2021 eu recebi o convite ( pela segunda vez =P) do meu Amigo Felipe Carvalho e após passar por varias áreas de trabalho, decidi aceitar o convite e começar uma nova página na minha vida profissional, estou fazendo essa transição de carreira neste momento,
-- : Comecei o curso Programação do zero na Cubos Academy e estou gostando demais de cada conteúdo novo apresentado, que por sinal tudo ta sendo novo pra mim =],
-- : Meus estudos ainda estão em progresso, e apesar do regime de home office mas espero poder fazer muitas conexões e contribuir bastante nessa comunidade incrivel de tecnologia,
-- : LEZZGOUU!!!,
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-}
+### For Android
 
-## 📚 const sempreMelhorando = {
+```bash
+# using npm
+npm run android
 
-- ![English](https://img.shields.io/badge/-English-ff69b4),
-- ![CSS3](https://img.shields.io/static/v1?label=&message=CSS3&color=blue),
-- ![HTML5](https://img.shields.io/static/v1?label=&message=HTML5&color=red),
-- ![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=orange),
-- ![NodeJS](https://img.shields.io/static/v1?label=&message=NodeJS&color=brightgreen),
-- ![Typescript](https://img.shields.io/badge/-TypeScript-FFB27F),
-- ![React](https://img.shields.io/badge/-React-B200FF),
-- ![ES6](https://img.shields.io/badge/-ES6-FF6A00),
-- ![Context](https://img.shields.io/badge/-Context-5BD6FF),
-- ![Nextjs](https://img.shields.io/badge/-Nextjs-FF91E7),
-- ![SQL](https://img.shields.io/badge/-SQL-FF5154),
-- ![PG](https://img.shields.io/badge/-PG-FFBB7F),
-- ![Auth](https://img.shields.io/badge/-Auth-FF000C),
-- ![Encryption](https://img.shields.io/badge/-Encryption-ffffff),
-- ![redux](https://img.shields.io/badge/-Redux-5BD6FF),
-- ![ReactNative](https://img.shields.io/badge/-ReactNative-B200FF),
-- ![Laravel](https://img.shields.io/static/v1?label=&message=Laravel&color=orange),
-}
+# OR using Yarn
+yarn android
+```
 
-console.log( [![Linkedin Badge](https://img.shields.io/badge/-Tarcisio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tarcisio-wesley//)](https://www.linkedin.com/in/tarcisio-wesley/) ,
-[![Gmail Badge](https://img.shields.io/badge/-tarcisiowesley@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tarcisiowesley@gmail.com)](mailto:tarcisiowesley@gmail.com) ,
-[![YouTube Badge](https://img.shields.io/badge/-Tarcisio-red?style=flat-square&logo=YouTube&logoColor=white&link=https://www.youtube.com/c/TarcisioWesley//)](https://www.youtube.com/c/TarcisioWesley/) )
+### For iOS
 
+```bash
+# using npm
+npm run ios
 
+# OR using Yarn
+yarn ios
+```
 
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+## Step 3: Modifying your App
+
+Now that you have successfully run the app, let's modify it.
+
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
